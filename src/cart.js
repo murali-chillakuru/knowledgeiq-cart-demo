@@ -7,5 +7,5 @@ export function cartTotal(items) {
 }
 
 export function checkoutSummary(items) {
-  return `Items: ${items.length}. Total: ${cartTotal(items)}`;
+  return `${items.length} items in your cart. Total: ${cartTotal(items)}`;
 }
