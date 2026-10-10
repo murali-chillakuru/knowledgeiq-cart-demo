@@ -5,3 +5,7 @@ export function cartTotal(items) {
   }
   return total;
 }
+
+export function checkoutSummary(items) {
+  return `${items.length} items, total ${cartTotal(items)}`;
+}
