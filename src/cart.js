@@ -3,7 +3,7 @@ export function cartTotal(items) {
   for (const item of items) {
     total += item.price * item.quantity;
   }
-  return total;
+  return Math.round(total);
 }
 
 export function checkoutSummary(items) {
