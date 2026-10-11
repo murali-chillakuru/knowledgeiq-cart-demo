@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "scripts": {
+    "test": "node --test --test-reporter=spec",
+    "coverage": "node --test --experimental-test-coverage --test-reporter=spec"
+  },
   "dependencies": {
     "express": "4.22.0"
   }
