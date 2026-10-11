@@ -4,6 +4,6 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "minimist": "1.2.5"
+    "minimist": "1.2.6"
   }
 }
