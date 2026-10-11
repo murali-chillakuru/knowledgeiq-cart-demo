@@ -14,3 +14,9 @@ for (const { total, percent, expected } of cases) {
     assert.equal(applyDiscount(total, percent), expected);
   });
 }
+
+for (const percent of [-1, 101]) {
+  test(`rejects ${percent}%`, () => {
+    assert.throws(() => applyDiscount(100, percent), RangeError);
+  });
+}
